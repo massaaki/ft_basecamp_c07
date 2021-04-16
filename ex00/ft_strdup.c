@@ -6,7 +6,7 @@
 /*   By: mmassaak <mmassaak@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/16 03:26:42 by mmassaak          #+#    #+#             */
-/*   Updated: 2021/04/16 18:40:46 by mmassaak         ###   ########.fr       */
+/*   Updated: 2021/04/16 23:28:00 by mmassaak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,6 @@ char		*ft_strdup(char *src)
 		str[i] = src[i];
 		i++;
 	}
+	str[i] = '\0';
 	return (str);
 }
